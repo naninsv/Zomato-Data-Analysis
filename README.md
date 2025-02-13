@@ -40,12 +40,37 @@ Below is the ER Diagram representing the database schema for this project:
 
 
 ## 🛠️ Methodologies Used
-The analysis is performed using **SQL queries**, covering:
-- 🔗 **Joins** – Combining multiple tables for deeper insights.
-- 🔢 **Aggregations** – SUM, AVG, COUNT for revenue and performance metrics.
-- 📊 **Ranking Functions** – RANK, DENSE_RANK, ROW_NUMBER for ranking restaurants & riders.
-- 🔄 **Window Functions** – LAG, LEAD for trend analysis.
-- 📅 **Date Functions** – Extracting month, year, and seasonal trends.
+
+1. **Joins**  
+   🔗 Combine multiple tables (e.g., INNER, LEFT JOIN) to integrate data across orders, customers, restaurants, deliveries, and riders.
+
+2. **Aggregations**  
+   🔢 Use functions like SUM, COUNT, and AVG to compute metrics such as revenue and order volumes.
+
+3. **Ranking Functions**  
+   📊 Employ RANK, DENSE_RANK, and ROW_NUMBER to order restaurants, riders, and other entities based on performance.
+
+4. **Window Functions**  
+   🔄 Utilize LAG and LEAD to compare current rows with previous or subsequent rows for trend analysis.
+
+5. **Date Functions**  
+   📅 Extract and manipulate date information using MONTH, YEAR, DATEADD, and DATEDIFF to analyze seasonal trends.
+
+6. **Common Table Expressions (CTEs)**  
+   📋 Break complex queries into manageable, reusable parts for clarity and maintenance.
+
+7. **Filtering & Conditional Logic**  
+   🔍 Apply WHERE, HAVING, and CASE statements to segment data and implement conditional analysis.
+
+8. **Set Operations**  
+   🔀 Merge or compare datasets using UNION, INTERSECT, and EXCEPT for comprehensive result sets.
+
+9. **Data Type Conversion**  
+   🔄 Use CAST and CONVERT to ensure data is in the correct format for analysis.
+
+10. **Query Optimization**  
+    ⚡ Enhance performance through indexing and efficient query design.
+
 
 ## 📌 Project Breakdown (Questions & Categories)
 

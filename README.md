@@ -1,7 +1,8 @@
 # 🍽️ Zomato Food Delivery Data Analysis Using SQL
 
+
 ## 📌 Introduction
-The **food delivery industry** is rapidly expanding, with companies like **Zomato** leading the market. This project applies **SQL-based data analysis** to extract insights on:
+The **food delivery industry**  is rapidly growing, with companies like **Zomato** leading the market. This project leverages SQL-based data analysis to extract insights on customer behavior, restaurant performance, delivery trends, and revenue patterns.
 
 - 📊 **Customer behavior**
 - 🍔 **Restaurant performance**
@@ -34,7 +35,8 @@ The project is based on multiple datasets:
 
 Below is the ER Diagram representing the database schema for this project:
 
-![ER Diagram](images/er_diagram.png)
+![ER Diagram](ER.png)
+
 
 
 ## 🛠️ Methodologies Used
